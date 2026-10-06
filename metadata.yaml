@@ -1,0 +1,8 @@
+name: astrbot_plugin_sendblue
+display_name: Sendblue iMessage / SMS
+desc: Direct text conversations through a Sendblue line, with authenticated webhooks and sender allowlisting.
+short_desc: Chat with AstrBot over iMessage and SMS using Sendblue.
+version: 0.1.0
+author: lookevink
+repo: https://github.com/lookevink/astrbot_plugin_sendblue
+astrbot_version: ">=4.29.0b1,<5"

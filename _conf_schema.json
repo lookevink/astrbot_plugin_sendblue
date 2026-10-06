@@ -1,0 +1,33 @@
+{
+  "sendblue_api_key": {
+    "description": "Sendblue API key ID",
+    "type": "string",
+    "secret": true,
+    "default": ""
+  },
+  "sendblue_api_secret": {
+    "description": "Sendblue API secret key",
+    "type": "string",
+    "secret": true,
+    "default": ""
+  },
+  "sendblue_signing_secret": {
+    "description": "Webhook shared secret",
+    "type": "string",
+    "secret": true,
+    "default": "",
+    "hint": "Generate a random secret; configure the same value on the Sendblue receive webhook."
+  },
+  "sendblue_from_number": {
+    "description": "Assigned Sendblue line",
+    "type": "string",
+    "default": "",
+    "hint": "Assigned +E164 number, not your personal phone."
+  },
+  "sendblue_allow_from": {
+    "description": "Allowed sender phones",
+    "type": "list",
+    "default": [],
+    "hint": "Explicit +E164 numbers; empty denies all. A single * allows all. Provider contact verification is separate."
+  }
+}
